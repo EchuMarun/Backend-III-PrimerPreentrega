@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "c53fdebc-9580-491e-86b3-56500ad88e28",
+		"name": "mocks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35026617"
+	},
+	"item": [
+		{
+			"name": "mockingUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/mocks/mockingusers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"mocks",
+						"mockingusers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mockingPets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/mocks/mockingpets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"mocks",
+						"mockingpets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generateData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/mocks/generateData/10/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"mocks",
+						"generateData",
+						"10",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

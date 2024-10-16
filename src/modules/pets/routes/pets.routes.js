@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import { PetsController } from '../controllers/pets.controller.js';
+const petsController = new PetsController();
+const router = Router();
+router.get('/', petsController.getAllPets);
+router.post('/', petsController.createPet);
+router.get('/:pid', petsController.getPet);
+router.put('/:pid', petsController.updatePet);
+router.delete('/:pid', petsController.deletePet);
+export default router;
